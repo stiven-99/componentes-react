@@ -1,0 +1,33 @@
+.contenedor-principal {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f1de;
+}
+
+.Contenedor-usuario {
+    border: 2px solid black;
+    background-color: antiquewhite;
+    padding: 10px;
+    min-width: 300px;
+}
+
+.info-tex {
+    color: blue;
+    font-size: 30px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.info-des {
+    color: rgb(238, 118, 48);
+}
+
+.Ver-mas {
+    border: 2px solid black;
+    color: blue;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}

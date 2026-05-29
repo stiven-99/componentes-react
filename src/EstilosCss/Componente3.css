@@ -1,0 +1,34 @@
+.marco-gris {
+    border: 5px solid #dbd2d2;
+    padding: 0px;
+    width: 200px;
+}
+
+.botones {
+    background-color: #dbd2d2;;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-sp {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    width: 200px;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: opacity 0.2s ease;
+}
+
+
+.btn-titulo {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn-subtitulo {
+    font-size: 10px;
+    opacity: 0.9;
+}

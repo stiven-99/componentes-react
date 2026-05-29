@@ -1,0 +1,29 @@
+.tarjeta_producto {
+    border: 5px solid #ccc;
+    padding: 15px;
+    width: 200px;
+    background-color: #f9f9f9;
+    font-family: sans-serif;
+}
+
+.tarjeta_producto_hijo {
+    width: 100%;
+    height: 150px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.tarjeta_producto_titulo {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #555;
+}
+
+.tarjeta_producto_precio {
+    font-size: 15px;
+    color: #000;
+}

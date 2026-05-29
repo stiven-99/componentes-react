@@ -1,0 +1,41 @@
+.gender-container {
+    background-color: #e5e7eb;
+    padding: 15px 20px;
+    border-radius: 12px;
+    width: 300px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.gender-titulo {
+    font-size: 12px;
+    font-weight: bold;
+    color: #4b5563;
+    letter-spacing: 1px;
+    margin: 0 0 15px 0;
+}
+
+.gender-fila {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gender-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all 0.1s ease;
+}
+
+.gender-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Clase dinámica cuando el botón está seleccionado */
+.gender-btn.activo {
+    transform: scale(1.1);
+}
