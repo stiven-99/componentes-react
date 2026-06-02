@@ -6,7 +6,8 @@ import {FormularioNewsletter} from './UsuarioComponentes/Componente2'
 import ListaBotones from './UsuarioComponentes/Componente3';
 import TarjetaTailwind from './UsuarioComponentes/Componente4';
 import SelectorGenero  from './UsuarioComponentes/Componente5';
-
+import { MensajeTexto } from './mensaje/mensaje';
+import { Saludo } from './mensaje/saludo';
 function App() {
   return (
     <div>
@@ -19,6 +20,10 @@ function App() {
     <TarjetaTailwind/>
 
     <p> <SelectorGenero/> </p>
+    <MensajeTexto/>
+    <MensajeTexto/>
+    <Saludo/>
+
     </div>
     
   );
